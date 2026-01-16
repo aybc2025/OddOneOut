@@ -1,5 +1,72 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="50" cy="70" rx="30" ry="6" fill="#007AFF" stroke="#000" stroke-width="3"/>
-  <path d="M25 70 L30 45 Q50 35 70 45 L75 70 Z" fill="#007AFF" stroke="#000" stroke-width="3"/>
-  <path d="M45 40 L40 35 L42 38 Z" fill="#007AFF" stroke="#000" stroke-width="2"/>
+  <defs>
+    <linearGradient id="capBodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4DA6FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0051D5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="billGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0051D5;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="buttonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE135;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC800;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Bill/visor shadow -->
+  <ellipse cx="52" cy="73" rx="32" ry="8" fill="#000000" opacity="0.2"/>
+
+  <!-- Bill/visor -->
+  <path d="M23 68 L28 60 Q50 55 72 60 L77 68 Q50 64 23 68 Z"
+        fill="url(#billGradient)" stroke="#0051D5" stroke-width="2"/>
+
+  <!-- Bill underside -->
+  <ellipse cx="50" cy="68" rx="27" ry="5" fill="#0051D5" opacity="0.7"/>
+
+  <!-- Bill stitching detail -->
+  <path d="M28 62 Q50 58 72 62"
+        fill="none" stroke="#004099" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+
+  <!-- Cap main body -->
+  <path d="M25 68 L30 42 Q50 32 70 42 L75 68 Z"
+        fill="url(#capBodyGradient)" stroke="#0051D5" stroke-width="2"/>
+
+  <!-- Cap panel seams -->
+  <path d="M50 35 L50 68" stroke="#0051D5" stroke-width="1.5" opacity="0.6"/>
+  <path d="M37 40 L32 68" stroke="#0051D5" stroke-width="1.5" opacity="0.6"/>
+  <path d="M63 40 L68 68" stroke="#0051D5" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Front panel highlight -->
+  <path d="M45 40 L42 68 L58 68 L55 40 Z"
+        fill="#4DA6FF" opacity="0.3"/>
+
+  <!-- Cap band -->
+  <ellipse cx="50" cy="68" rx="25" ry="4"
+           fill="#004099" stroke="#003380" stroke-width="1.5"/>
+
+  <!-- Button on top -->
+  <circle cx="50" cy="35" r="5"
+          fill="url(#buttonGradient)" stroke="#CC9900" stroke-width="1.5"/>
+
+  <!-- Button segments -->
+  <line x1="50" y1="32" x2="50" y2="38" stroke="#CC9900" stroke-width="1" opacity="0.5"/>
+  <line x1="47" y1="35" x2="53" y2="35" stroke="#CC9900" stroke-width="1" opacity="0.5"/>
+
+  <!-- Logo/emblem on front (star) -->
+  <g transform="translate(50, 52)">
+    <path d="M0,-6 L1.8,-1.8 L6,0 L1.8,1.8 L0,6 L-1.8,1.8 L-6,0 L-1.8,-1.8 Z"
+          fill="#FFFFFF" stroke="#E0E0E0" stroke-width="0.5"/>
+  </g>
+
+  <!-- Cap stitching on panels -->
+  <path d="M38 45 L35 65"
+        fill="none" stroke="#4DA6FF" stroke-width="0.8" stroke-dasharray="1,2" opacity="0.5"/>
+  <path d="M62 45 L65 65"
+        fill="none" stroke="#4DA6FF" stroke-width="0.8" stroke-dasharray="1,2" opacity="0.5"/>
+
+  <!-- Ventilation holes -->
+  <circle cx="40" cy="50" r="1.5" fill="#004099" opacity="0.6"/>
+  <circle cx="60" cy="50" r="1.5" fill="#004099" opacity="0.6"/>
 </svg>

@@ -1,7 +1,78 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M20 60 L25 35 L35 45 L50 30 L65 45 L75 35 L80 60 Z" fill="#FFE135" stroke="#000" stroke-width="3"/>
-  <rect x="18" y="60" width="64" height="10" fill="#FFE135" stroke="#000" stroke-width="3"/>
-  <circle cx="25" cy="35" r="4" fill="#FF3B30"/>
-  <circle cx="50" cy="30" r="4" fill="#FF3B30"/>
-  <circle cx="75" cy="35" r="4" fill="#FF3B30"/>
+  <defs>
+    <linearGradient id="crownGoldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE135;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC800;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="gemGradient1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF3B30;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC0000;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="gemGradient2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0051D5;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="gemGradient3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34C759;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#248A3D;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Crown base/band -->
+  <path d="M15 60 L18 70 L82 70 L85 60 Z"
+        fill="url(#crownGoldGradient)" stroke="#CC9900" stroke-width="2"/>
+
+  <!-- Band decoration -->
+  <rect x="17" y="62" width="66" height="3" fill="#FFA500" opacity="0.5"/>
+
+  <!-- Main crown body -->
+  <path d="M18 60 L22 35 L32 45 L50 28 L68 45 L78 35 L82 60 Z"
+        fill="url(#crownGoldGradient)" stroke="#CC9900" stroke-width="2"/>
+
+  <!-- Crown points highlights -->
+  <polygon points="22,35 27,40 32,45 27,35" fill="#FFE135" opacity="0.6"/>
+  <polygon points="50,28 45,38 40,45 50,35" fill="#FFE135" opacity="0.6"/>
+  <polygon points="78,35 73,35 68,45 73,40" fill="#FFE135" opacity="0.6"/>
+
+  <!-- Decorative pattern on crown body -->
+  <circle cx="28" cy="52" r="2" fill="#CC9900" opacity="0.4"/>
+  <circle cx="40" cy="50" r="2" fill="#CC9900" opacity="0.4"/>
+  <circle cx="50" cy="48" r="2" fill="#CC9900" opacity="0.4"/>
+  <circle cx="60" cy="50" r="2" fill="#CC9900" opacity="0.4"/>
+  <circle cx="72" cy="52" r="2" fill="#CC9900" opacity="0.4"/>
+
+  <!-- Left gem -->
+  <circle cx="25" cy="35" r="5" fill="url(#gemGradient1)" stroke="#CC0000" stroke-width="1.5"/>
+  <circle cx="24" cy="33" r="2" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Center gem (largest) -->
+  <circle cx="50" cy="28" r="6" fill="url(#gemGradient2)" stroke="#0051D5" stroke-width="1.5"/>
+  <circle cx="48" cy="26" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Right gem -->
+  <circle cx="75" cy="35" r="5" fill="url(#gemGradient3)" stroke="#248A3D" stroke-width="1.5"/>
+  <circle cx="74" cy="33" r="2" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Additional small gems on points -->
+  <circle cx="32" cy="45" r="3.5" fill="url(#gemGradient1)" stroke="#CC0000" stroke-width="1"/>
+  <circle cx="31" cy="44" r="1.2" fill="#FFFFFF" opacity="0.8"/>
+
+  <circle cx="68" cy="45" r="3.5" fill="url(#gemGradient3)" stroke="#248A3D" stroke-width="1"/>
+  <circle cx="67" cy="44" r="1.2" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Crown shine effect -->
+  <path d="M25 40 Q35 35 45 40" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+  <path d="M55 38 Q65 33 75 38" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Bottom band gems -->
+  <circle cx="35" cy="65" r="2.5" fill="url(#gemGradient1)" stroke="#CC0000" stroke-width="1"/>
+  <circle cx="50" cy="65" r="2.5" fill="url(#gemGradient2)" stroke="#0051D5" stroke-width="1"/>
+  <circle cx="65" cy="65" r="2.5" fill="url(#gemGradient3)" stroke="#248A3D" stroke-width="1"/>
+
+  <!-- Band detail lines -->
+  <line x1="18" y1="68" x2="82" y2="68" stroke="#CC9900" stroke-width="1" opacity="0.5"/>
 </svg>

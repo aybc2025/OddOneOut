@@ -1,5 +1,85 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <rect x="35" y="40" width="30" height="45" rx="3" fill="#FFA500" stroke="#000" stroke-width="3"/>
-  <rect x="40" y="30" width="20" height="12" fill="#FFE135" stroke="#000" stroke-width="2"/>
-  <rect x="48" y="35" width="4" height="8" fill="#FF3B30"/>
+  <defs>
+    <linearGradient id="glassGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E0F7FF;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#C8E9F5;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="juiceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="bubbleGradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Glass body -->
+  <path d="M32 40 L30 85 Q30 88 33 88 L67 88 Q70 88 70 85 L68 40 Z"
+        fill="url(#glassGradient)" stroke="#A0C8D8" stroke-width="2"/>
+
+  <!-- Orange juice inside -->
+  <path d="M33 48 L31 82 Q31 85 34 85 L66 85 Q69 85 69 82 L67 48 Z"
+        fill="url(#juiceGradient)" opacity="0.9"/>
+
+  <!-- Juice surface foam -->
+  <ellipse cx="50" cy="48" rx="17" ry="3" fill="#FFE5B4" opacity="0.7"/>
+
+  <!-- Foam bubbles on surface -->
+  <circle cx="42" cy="48" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="48" cy="47" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="54" cy="48" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="58" cy="47" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Glass rim -->
+  <ellipse cx="50" cy="40" rx="18" ry="4"
+           fill="url(#glassGradient)" stroke="#A0C8D8" stroke-width="2"/>
+
+  <!-- Glass rim top edge -->
+  <ellipse cx="50" cy="39" rx="18" ry="3"
+           fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Bubbles in juice -->
+  <circle cx="40" cy="65" r="3" fill="url(#bubbleGradient)" opacity="0.6"/>
+  <circle cx="55" cy="60" r="2.5" fill="url(#bubbleGradient)" opacity="0.6"/>
+  <circle cx="45" cy="75" r="2" fill="url(#bubbleGradient)" opacity="0.6"/>
+  <circle cx="60" cy="70" r="2" fill="url(#bubbleGradient)" opacity="0.6"/>
+  <circle cx="38" cy="55" r="1.5" fill="url(#bubbleGradient)" opacity="0.6"/>
+  <circle cx="62" cy="58" r="1.5" fill="url(#bubbleGradient)" opacity="0.6"/>
+
+  <!-- Orange slice garnish -->
+  <g transform="translate(62, 35)">
+    <!-- Outer peel -->
+    <circle cx="0" cy="0" r="8" fill="#FF8C00" stroke="#CC6600" stroke-width="1.5"/>
+
+    <!-- Inner flesh -->
+    <circle cx="0" cy="0" r="6" fill="#FFD700"/>
+
+    <!-- Segments -->
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#FFA500" stroke-width="1"/>
+    <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#FFA500" stroke-width="1"/>
+    <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#FFA500" stroke-width="1"/>
+    <circle cx="0" cy="0" r="1.5" fill="#FFE5B4"/>
+  </g>
+
+  <!-- Straw -->
+  <rect x="55" y="15" width="6" height="45" rx="3"
+        fill="#FF3B30" stroke="#CC0000" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Straw stripes -->
+  <rect x="55" y="18" width="6" height="3" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="55" y="25" width="6" height="3" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="55" y="32" width="6" height="3" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="55" y="39" width="6" height="3" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="55" y="46" width="6" height="3" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Straw bend -->
+  <path d="M58 15 Q63 12 68 15 L68 20 Q63 17 58 20 Z"
+        fill="#FF3B30" stroke="#CC0000" stroke-width="1.5" opacity="0.9"/>
+
+  <!-- Glass shine effect -->
+  <ellipse cx="38" cy="55" rx="4" ry="15" fill="#FFFFFF" opacity="0.4"/>
+  <ellipse cx="35" cy="70" rx="3" ry="10" fill="#FFFFFF" opacity="0.3"/>
 </svg>

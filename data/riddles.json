@@ -2,23 +2,23 @@
   {
     "id": "q1",
     "items": [
+      {"type": "dog"},
       {"type": "banana"},
       {"type": "apple"},
-      {"type": "strawberry"},
-      {"type": "dog"}
+      {"type": "strawberry"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה הם פירות ואחד הוא חיה"
   },
   {
     "id": "q2",
     "items": [
       {"type": "car"},
+      {"type": "cat"},
       {"type": "bus"},
-      {"type": "bicycle"},
-      {"type": "cat"}
+      {"type": "bicycle"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה הם כלי תחבורה ואחד הוא חיה"
   },
   {
@@ -26,10 +26,10 @@
     "items": [
       {"type": "circle"},
       {"type": "square"},
-      {"type": "triangle"},
-      {"type": "banana"}
+      {"type": "banana"},
+      {"type": "triangle"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה הם צורות גיאומטריות ואחד הוא פרי"
   },
   {
@@ -46,23 +46,23 @@
   {
     "id": "q5",
     "items": [
+      {"type": "ball"},
       {"type": "sun"},
       {"type": "moon"},
-      {"type": "star"},
-      {"type": "ball"}
+      {"type": "star"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה נמצאים בשמיים ואחד הוא צעצוע"
   },
   {
     "id": "q6",
     "items": [
       {"type": "lion"},
+      {"type": "spoon"},
       {"type": "elephant"},
-      {"type": "giraffe"},
-      {"type": "spoon"}
+      {"type": "giraffe"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה הם חיות ואחד הוא כלי אוכל"
   },
   {
@@ -70,10 +70,10 @@
     "items": [
       {"type": "red"},
       {"type": "blue"},
-      {"type": "yellow"},
-      {"type": "car"}
+      {"type": "car"},
+      {"type": "yellow"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה הם צבעים ואחד הוא כלי רכב"
   },
   {
@@ -90,23 +90,23 @@
   {
     "id": "q9",
     "items": [
+      {"type": "bird"},
       {"type": "fish"},
       {"type": "octopus"},
-      {"type": "whale"},
-      {"type": "bird"}
+      {"type": "whale"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה חיים במים ואחד חי באוויר"
   },
   {
     "id": "q10",
     "items": [
       {"type": "hat"},
+      {"type": "sock"},
       {"type": "crown"},
-      {"type": "cap"},
-      {"type": "sock"}
+      {"type": "cap"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה לובשים על הראש ואחד על הרגל"
   },
   {
@@ -114,10 +114,10 @@
     "items": [
       {"type": "orange"},
       {"type": "grapes"},
-      {"type": "watermelon"},
-      {"type": "carrot"}
+      {"type": "carrot"},
+      {"type": "watermelon"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה הם פירות ואחד הוא ירק"
   },
   {
@@ -134,23 +134,23 @@
   {
     "id": "q13",
     "items": [
+      {"type": "pizza"},
       {"type": "book"},
       {"type": "pencil"},
-      {"type": "ruler"},
-      {"type": "pizza"}
+      {"type": "ruler"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה הם כלי לימוד ואחד הוא אוכל"
   },
   {
     "id": "q14",
     "items": [
       {"type": "tree"},
+      {"type": "chair"},
       {"type": "flower"},
-      {"type": "grass"},
-      {"type": "chair"}
+      {"type": "grass"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה הם צמחים ואחד הוא רהיט"
   },
   {
@@ -158,10 +158,10 @@
     "items": [
       {"type": "drum"},
       {"type": "guitar"},
-      {"type": "piano"},
-      {"type": "table"}
+      {"type": "table"},
+      {"type": "piano"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה הם כלי נגינה ואחד הוא רהיט"
   },
   {
@@ -178,23 +178,23 @@
   {
     "id": "q17",
     "items": [
+      {"type": "brush"},
       {"type": "cup"},
       {"type": "plate"},
-      {"type": "bowl"},
-      {"type": "brush"}
+      {"type": "bowl"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה הם כלי אוכל ואחד הוא כלי ציור"
   },
   {
     "id": "q18",
     "items": [
       {"type": "bed"},
+      {"type": "lamp"},
       {"type": "pillow"},
-      {"type": "blanket"},
-      {"type": "lamp"}
+      {"type": "blanket"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה קשורים לשינה ואחד נותן אור"
   },
   {
@@ -202,10 +202,10 @@
     "items": [
       {"type": "rain"},
       {"type": "cloud"},
-      {"type": "lightning"},
-      {"type": "ice-cream"}
+      {"type": "ice-cream"},
+      {"type": "lightning"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה קשורים למזג אוויר ואחד הוא אוכל"
   },
   {
@@ -222,23 +222,23 @@
   {
     "id": "q21",
     "items": [
+      {"type": "boat"},
       {"type": "door"},
       {"type": "window"},
-      {"type": "roof"},
-      {"type": "boat"}
+      {"type": "roof"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה הם חלקים של בית ואחד הוא כלי שיט"
   },
   {
     "id": "q22",
     "items": [
       {"type": "cookie"},
+      {"type": "bread"},
       {"type": "cake"},
-      {"type": "candy"},
-      {"type": "bread"}
+      {"type": "candy"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה הם ממתקים ואחד הוא לחם"
   },
   {
@@ -246,10 +246,10 @@
     "items": [
       {"type": "hand"},
       {"type": "foot"},
-      {"type": "ear"},
-      {"type": "shirt"}
+      {"type": "shirt"},
+      {"type": "ear"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה הם חלקי גוף ואחד הוא בגד"
   },
   {
@@ -266,23 +266,23 @@
   {
     "id": "q25",
     "items": [
+      {"type": "horse"},
       {"type": "rabbit"},
       {"type": "mouse"},
-      {"type": "hamster"},
-      {"type": "horse"}
+      {"type": "hamster"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה הם בעלי חיים קטנים ואחד הוא גדול"
   },
   {
     "id": "q26",
     "items": [
       {"type": "ball"},
+      {"type": "tomato"},
       {"type": "doll"},
-      {"type": "teddy-bear"},
-      {"type": "tomato"}
+      {"type": "teddy-bear"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה הם צעצועים ואחד הוא ירק"
   },
   {
@@ -290,10 +290,10 @@
     "items": [
       {"type": "watch"},
       {"type": "clock"},
-      {"type": "hourglass"},
-      {"type": "mirror"}
+      {"type": "mirror"},
+      {"type": "hourglass"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "שלושה מראים זמן ואחד מראה השתקפות"
   },
   {
@@ -310,23 +310,23 @@
   {
     "id": "q29",
     "items": [
+      {"type": "balloon"},
       {"type": "nose"},
       {"type": "eye"},
-      {"type": "mouth"},
-      {"type": "balloon"}
+      {"type": "mouth"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "שלושה הם חלקים של הפנים ואחד הוא צעצוע"
   },
   {
     "id": "q30",
     "items": [
       {"type": "mountain"},
+      {"type": "umbrella"},
       {"type": "hill"},
-      {"type": "valley"},
-      {"type": "umbrella"}
+      {"type": "valley"}
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "שלושה הם צורות קרקע ואחד הוא חפץ"
   }
 ]

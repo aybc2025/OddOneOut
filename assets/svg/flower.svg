@@ -1,9 +1,69 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="40" r="8" fill="#FFE135" stroke="#000" stroke-width="2"/>
-  <ellipse cx="50" cy="28" rx="6" ry="10" fill="#FF69B4" stroke="#000" stroke-width="2"/>
-  <ellipse cx="62" cy="40" rx="10" ry="6" fill="#FF69B4" stroke="#000" stroke-width="2"/>
-  <ellipse cx="50" cy="52" rx="6" ry="10" fill="#FF69B4" stroke="#000" stroke-width="2"/>
-  <ellipse cx="38" cy="40" rx="10" ry="6" fill="#FF69B4" stroke="#000" stroke-width="2"/>
-  <rect x="48" y="52" width="4" height="30" fill="#34C759" stroke="#000" stroke-width="2"/>
-  <path d="M52 60 Q60 58 62 65" fill="none" stroke="#34C759" stroke-width="2"/>
+  <defs>
+    <radialGradient id="petalGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF85C2;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E94FA0;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="centerGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFF44F;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FFE135;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC800;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="stemGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2D8A3E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34C759;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D8A3E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CD964;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#34C759;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D8A3E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top petal -->
+  <ellipse cx="50" cy="25" rx="8" ry="12" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5"/>
+
+  <!-- Right petal -->
+  <ellipse cx="66" cy="40" rx="12" ry="8" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5"/>
+
+  <!-- Bottom petal -->
+  <ellipse cx="50" cy="55" rx="8" ry="12" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5"/>
+
+  <!-- Left petal -->
+  <ellipse cx="34" cy="40" rx="12" ry="8" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5"/>
+
+  <!-- Top-right petal -->
+  <ellipse cx="61" cy="30" rx="9" ry="10" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5" transform="rotate(45 61 30)"/>
+
+  <!-- Bottom-right petal -->
+  <ellipse cx="61" cy="50" rx="9" ry="10" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5" transform="rotate(-45 61 50)"/>
+
+  <!-- Bottom-left petal -->
+  <ellipse cx="39" cy="50" rx="9" ry="10" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5" transform="rotate(45 39 50)"/>
+
+  <!-- Top-left petal -->
+  <ellipse cx="39" cy="30" rx="9" ry="10" fill="url(#petalGradient)" stroke="#E94FA0" stroke-width="1.5" transform="rotate(-45 39 30)"/>
+
+  <!-- Flower center -->
+  <circle cx="50" cy="40" r="10" fill="url(#centerGradient)" stroke="#FFC800" stroke-width="1.5"/>
+
+  <!-- Center details (pollen dots) -->
+  <circle cx="47" cy="38" r="1.5" fill="#FF9500" opacity="0.8"/>
+  <circle cx="53" cy="38" r="1.5" fill="#FF9500" opacity="0.8"/>
+  <circle cx="50" cy="43" r="1.5" fill="#FF9500" opacity="0.8"/>
+  <circle cx="47" cy="43" r="1.2" fill="#FF9500" opacity="0.6"/>
+  <circle cx="53" cy="43" r="1.2" fill="#FF9500" opacity="0.6"/>
+
+  <!-- Stem -->
+  <rect x="47" y="50" width="6" height="35" rx="3" fill="url(#stemGradient)" stroke="#2D8A3E" stroke-width="1.5"/>
+
+  <!-- Leaf -->
+  <path d="M53 62 Q68 60 70 68 Q68 76 53 74"
+        fill="url(#leafGradient)" stroke="#2D8A3E" stroke-width="1.5"/>
+
+  <!-- Leaf vein -->
+  <path d="M53 68 Q61 67 66 68"
+        fill="none" stroke="#2D8A3E" stroke-width="1" opacity="0.6"/>
 </svg>

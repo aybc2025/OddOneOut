@@ -1,4 +1,43 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <path d="M30 20 L50 70 L45 75 L25 25 Z" fill="#C0C0C0" stroke="#000" stroke-width="3"/>
-  <rect x="48" y="70" width="8" height="18" rx="2" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  <defs>
+    <linearGradient id="bladeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F0F0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D8D8D8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="handleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B4423;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8B5A2B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5C3317;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Blade -->
+  <path d="M28 18 L52 68 L47 73 L23 23 Z"
+        fill="url(#bladeGradient)" stroke="#A0A0A0" stroke-width="2"/>
+
+  <!-- Blade edge highlight -->
+  <path d="M28 18 L52 68 L50 69 L26 19 Z"
+        fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Blade shine -->
+  <path d="M32 22 L42 45 L40 46 L30 23 Z"
+        fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Handle -->
+  <rect x="46" y="68" width="10" height="22" rx="3"
+        fill="url(#handleGradient)" stroke="#4A2F1A" stroke-width="2"/>
+
+  <!-- Handle wood grain effect -->
+  <rect x="47" y="70" width="8" height="3" rx="1" fill="#5C3317" opacity="0.4"/>
+  <rect x="47" y="75" width="8" height="2" rx="1" fill="#5C3317" opacity="0.3"/>
+  <rect x="47" y="79" width="8" height="3" rx="1" fill="#5C3317" opacity="0.4"/>
+  <rect x="47" y="84" width="8" height="2" rx="1" fill="#5C3317" opacity="0.3"/>
+
+  <!-- Handle shine -->
+  <rect x="52" y="70" width="2" height="18" rx="1" fill="#A0723B" opacity="0.5"/>
+
+  <!-- Metal ferrule at handle junction -->
+  <rect x="45" y="66" width="12" height="4" rx="1" fill="#C0C0C0" stroke="#A0A0A0" stroke-width="1"/>
+  <rect x="46" y="67" width="10" height="2" fill="#E8E8E8" opacity="0.7"/>
 </svg>

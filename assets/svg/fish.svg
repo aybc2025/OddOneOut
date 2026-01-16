@@ -1,6 +1,82 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="55" cy="50" rx="25" ry="15" fill="#007AFF" stroke="#000" stroke-width="3"/>
-  <path d="M30 50 L15 40 L15 60 Z" fill="#007AFF" stroke="#000" stroke-width="3"/>
-  <circle cx="65" cy="45" r="3" fill="#000"/>
-  <path d="M75 45 Q85 40 80 50 Q85 60 75 55" fill="#007AFF" stroke="#000" stroke-width="3"/>
+  <defs>
+    <linearGradient id="fishBodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9500;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF8000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="fishBellyGradient" cx="50%" cy="70%" r="50%">
+      <stop offset="0%" style="stop-color:#FFE5B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD280;stop-opacity:0.5" />
+    </radialGradient>
+    <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF3B30;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="finGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB84D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Tail fin -->
+  <path d="M10 50 L25 35 L28 50 L25 65 Z"
+        fill="url(#tailGradient)" stroke="#CC5200" stroke-width="2"/>
+
+  <!-- Tail fin detail lines -->
+  <line x1="15" y1="42" x2="25" y2="45" stroke="#CC5200" stroke-width="1" opacity="0.6"/>
+  <line x1="15" y1="50" x2="25" y2="50" stroke="#CC5200" stroke-width="1" opacity="0.6"/>
+  <line x1="15" y1="58" x2="25" y2="55" stroke="#CC5200" stroke-width="1" opacity="0.6"/>
+
+  <!-- Main body -->
+  <ellipse cx="55" cy="50" rx="32" ry="20"
+           fill="url(#fishBodyGradient)" stroke="#CC5200" stroke-width="2"/>
+
+  <!-- Belly highlight -->
+  <ellipse cx="55" cy="58" rx="25" ry="12"
+           fill="url(#fishBellyGradient)" opacity="0.7"/>
+
+  <!-- Top fin -->
+  <path d="M55 30 L60 18 L65 30 Z"
+        fill="url(#finGradient)" stroke="#CC5200" stroke-width="2"/>
+
+  <!-- Top fin detail lines -->
+  <line x1="58" y1="27" x2="60" y2="20" stroke="#CC5200" stroke-width="1" opacity="0.6"/>
+  <line x1="62" y1="27" x2="60" y2="20" stroke="#CC5200" stroke-width="1" opacity="0.6"/>
+
+  <!-- Bottom fin -->
+  <path d="M50 65 L48 77 L55 68 Z"
+        fill="url(#finGradient)" stroke="#CC5200" stroke-width="2"/>
+
+  <!-- Side fin -->
+  <ellipse cx="40" cy="55" rx="8" ry="12"
+           fill="url(#finGradient)" stroke="#CC5200" stroke-width="1.5" transform="rotate(-30 40 55)"/>
+
+  <!-- Eye white -->
+  <circle cx="68" cy="45" r="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Pupil -->
+  <circle cx="69" cy="45" r="3.5" fill="#000000"/>
+
+  <!-- Eye shine -->
+  <circle cx="70" cy="43" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Scales pattern -->
+  <g opacity="0.4">
+    <circle cx="45" cy="45" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="52" cy="45" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="59" cy="45" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="48" cy="50" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="55" cy="50" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="62" cy="50" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="45" cy="55" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="52" cy="55" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+    <circle cx="59" cy="55" r="3" fill="none" stroke="#CC5200" stroke-width="1"/>
+  </g>
+
+  <!-- Mouth -->
+  <path d="M83 48 Q86 50 83 52" fill="none" stroke="#CC5200" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Body shine -->
+  <ellipse cx="60" cy="42" rx="12" ry="6" fill="#FFFFFF" opacity="0.3"/>
 </svg>

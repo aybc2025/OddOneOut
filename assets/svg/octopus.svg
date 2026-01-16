@@ -1,10 +1,99 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="40" r="20" fill="#FF69B4" stroke="#000" stroke-width="3"/>
-  <path d="M35 55 Q32 70 30 80" fill="none" stroke="#FF69B4" stroke-width="5" stroke-linecap="round"/>
-  <path d="M42 55 Q40 70 38 80" fill="none" stroke="#FF69B4" stroke-width="5" stroke-linecap="round"/>
-  <path d="M50 55 Q50 70 50 80" fill="none" stroke="#FF69B4" stroke-width="5" stroke-linecap="round"/>
-  <path d="M58 55 Q60 70 62 80" fill="none" stroke="#FF69B4" stroke-width="5" stroke-linecap="round"/>
-  <path d="M65 55 Q68 70 70 80" fill="none" stroke="#FF69B4" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="43" cy="38" r="3" fill="#000"/>
-  <circle cx="57" cy="38" r="3" fill="#000"/>
+  <defs>
+    <radialGradient id="octopusBodyGradient" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#FF85C2;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E94FA0;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="tentacleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF85C2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF69B4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Tentacle 1 (far left) -->
+  <path d="M28 58 Q24 72 22 82 Q21 87 24 88"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 2 -->
+  <path d="M34 58 Q30 73 28 83 Q27 88 30 89"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 3 -->
+  <path d="M40 58 Q37 74 36 84 Q36 89 39 90"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 4 (left-center) -->
+  <path d="M46 58 Q45 75 45 85 Q45 90 48 90"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 5 (right-center) -->
+  <path d="M54 58 Q55 75 55 85 Q55 90 52 90"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 6 -->
+  <path d="M60 58 Q63 74 64 84 Q64 89 61 90"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 7 -->
+  <path d="M66 58 Q70 73 72 83 Q73 88 70 89"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Tentacle 8 (far right) -->
+  <path d="M72 58 Q76 72 78 82 Q79 87 76 88"
+        fill="none" stroke="url(#tentacleGradient)" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Suction cups on tentacles -->
+  <circle cx="25" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="23" cy="85" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="31" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="29" cy="86" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="38" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="37" cy="86" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="46" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="46" cy="86" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="54" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="54" cy="86" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="62" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="63" cy="86" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="69" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="71" cy="86" r="2" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="75" cy="78" r="2.5" fill="#E94FA0" opacity="0.8"/>
+  <circle cx="77" cy="85" r="2" fill="#E94FA0" opacity="0.8"/>
+
+  <!-- Main body/head -->
+  <circle cx="50" cy="38" r="24"
+          fill="url(#octopusBodyGradient)" stroke="#E94FA0" stroke-width="2"/>
+
+  <!-- Body shine highlight -->
+  <ellipse cx="42" cy="30" rx="10" ry="8" fill="#FFFFFF" opacity="0.4"/>
+
+  <!-- Spots on body -->
+  <circle cx="60" cy="32" r="3" fill="#E94FA0" opacity="0.5"/>
+  <circle cx="65" cy="40" r="2.5" fill="#E94FA0" opacity="0.5"/>
+  <circle cx="58" cy="45" r="2" fill="#E94FA0" opacity="0.5"/>
+  <circle cx="35" cy="48" r="2.5" fill="#E94FA0" opacity="0.5"/>
+  <circle cx="30" cy="40" r="2" fill="#E94FA0" opacity="0.5"/>
+
+  <!-- Left eye white -->
+  <ellipse cx="42" cy="36" rx="5" ry="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Right eye white -->
+  <ellipse cx="58" cy="36" rx="5" ry="6" fill="#FFFFFF" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Left pupil -->
+  <circle cx="43" cy="37" r="3" fill="#000000"/>
+
+  <!-- Right pupil -->
+  <circle cx="57" cy="37" r="3" fill="#000000"/>
+
+  <!-- Left eye shine -->
+  <circle cx="44" cy="35" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Right eye shine -->
+  <circle cx="58" cy="35" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Happy mouth -->
+  <path d="M42 45 Q50 50 58 45"
+        fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
 </svg>
