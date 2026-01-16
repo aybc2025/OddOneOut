@@ -1,10 +1,41 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="45" width="60" height="25" rx="5" fill="#FF3B30" stroke="#000" stroke-width="3"/>
-  <path d="M30 45 L35 30 L65 30 L70 45" fill="#FF3B30" stroke="#000" stroke-width="3"/>
-  <rect x="38" y="32" width="10" height="10" fill="#87CEEB" stroke="#000" stroke-width="2"/>
-  <rect x="52" y="32" width="10" height="10" fill="#87CEEB" stroke="#000" stroke-width="2"/>
-  <circle cx="32" cy="70" r="7" fill="#000"/>
-  <circle cx="68" cy="70" r="7" fill="#000"/>
-  <circle cx="32" cy="70" r="4" fill="#808080"/>
-  <circle cx="68" cy="70" r="4" fill="#808080"/>
+  <!-- Car body -->
+  <rect x="15" y="48" width="70" height="24" rx="4" fill="#E74C3C"/>
+  <rect x="18" y="51" width="64" height="18" rx="3" fill="#C0392B"/>
+
+  <!-- Car roof/cabin -->
+  <path d="M28 48 L35 30 L65 30 L72 48" fill="#E74C3C"/>
+  <path d="M31 48 L37 33 L63 33 L69 48" fill="#C0392B"/>
+
+  <!-- Windows -->
+  <path d="M37 35 L42 37 L42 46 L37 48 Z" fill="#87CEEB" opacity="0.8"/>
+  <path d="M63 35 L58 37 L58 46 L63 48 Z" fill="#87CEEB" opacity="0.8"/>
+  <rect x="44" y="37" width="12" height="9" fill="#87CEEB" opacity="0.8"/>
+
+  <!-- Window frames -->
+  <path d="M37 35 L42 37 L42 46 L37 48 Z" fill="none" stroke="#34495E" stroke-width="1.5"/>
+  <path d="M63 35 L58 37 L58 46 L63 48 Z" fill="none" stroke="#34495E" stroke-width="1.5"/>
+  <rect x="44" y="37" width="12" height="9" fill="none" stroke="#34495E" stroke-width="1.5"/>
+
+  <!-- Headlights -->
+  <rect x="80" y="54" width="4" height="6" rx="1" fill="#FFF9C4"/>
+  <rect x="16" y="54" width="4" height="6" rx="1" fill="#FFF9C4"/>
+
+  <!-- Wheels -->
+  <circle cx="30" cy="72" r="9" fill="#2C3E50"/>
+  <circle cx="70" cy="72" r="9" fill="#2C3E50"/>
+  <circle cx="30" cy="72" r="5" fill="#7F8C8D"/>
+  <circle cx="70" cy="72" r="5" fill="#7F8C8D"/>
+  <circle cx="30" cy="72" r="2" fill="#34495E"/>
+  <circle cx="70" cy="72" r="2" fill="#34495E"/>
+
+  <!-- Wheel details (spokes) -->
+  <circle cx="30" cy="72" r="6" fill="none" stroke="#95A5A6" stroke-width="1"/>
+  <circle cx="70" cy="72" r="6" fill="none" stroke="#95A5A6" stroke-width="1"/>
+
+  <!-- Door handle -->
+  <rect x="48" y="58" width="4" height="2" rx="1" fill="#34495E"/>
+
+  <!-- Bottom shadow -->
+  <ellipse cx="50" cy="73" rx="32" ry="3" fill="#000" opacity="0.2"/>
 </svg>

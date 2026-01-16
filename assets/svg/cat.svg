@@ -1,10 +1,49 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="20" fill="#FFA500" stroke="#000" stroke-width="3"/>
-  <path d="M35 35 L30 20 L38 30 Z" fill="#FFA500" stroke="#000" stroke-width="3"/>
-  <path d="M65 35 L70 20 L62 30 Z" fill="#FFA500" stroke="#000" stroke-width="3"/>
-  <circle cx="43" cy="47" r="3" fill="#000"/>
-  <circle cx="57" cy="47" r="3" fill="#000"/>
-  <circle cx="50" cy="53" r="2" fill="#000"/>
-  <line x1="30" y1="55" x2="45" y2="55" stroke="#000" stroke-width="2"/>
-  <line x1="55" y1="55" x2="70" y2="55" stroke="#000" stroke-width="2"/>
+  <!-- Body -->
+  <ellipse cx="50" cy="58" rx="22" ry="18" fill="#F39C12"/>
+  <ellipse cx="50" cy="58" rx="18" ry="14" fill="#E67E22"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="40" r="16" fill="#F39C12"/>
+  <circle cx="50" cy="40" r="13" fill="#E67E22"/>
+
+  <!-- Ears (triangular) -->
+  <path d="M37 28 L32 15 L42 28 Z" fill="#F39C12"/>
+  <path d="M63 28 L68 15 L58 28 Z" fill="#F39C12"/>
+  <path d="M37 28 L34 18 L42 28 Z" fill="#E67E22"/>
+  <path d="M63 28 L66 18 L58 28 Z" fill="#E67E22"/>
+
+  <!-- Inner ears -->
+  <path d="M37 26 L35 20 L40 26 Z" fill="#FFB6C1"/>
+  <path d="M63 26 L65 20 L60 26 Z" fill="#FFB6C1"/>
+
+  <!-- Eyes -->
+  <ellipse cx="43" cy="38" rx="4" ry="6" fill="#27AE60"/>
+  <ellipse cx="57" cy="38" rx="4" ry="6" fill="#27AE60"/>
+  <ellipse cx="43" cy="39" rx="2" ry="4" fill="#000"/>
+  <ellipse cx="57" cy="39" rx="2" ry="4" fill="#000"/>
+  <ellipse cx="43" cy="37" rx="1" ry="2" fill="#FFF" opacity="0.8"/>
+  <ellipse cx="57" cy="37" rx="1" ry="2" fill="#FFF" opacity="0.8"/>
+
+  <!-- Nose -->
+  <path d="M50 43 L48 46 L52 46 Z" fill="#FF6B9D"/>
+
+  <!-- Mouth -->
+  <path d="M50 46 Q48 48 46 47" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M50 46 Q52 48 54 47" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <line x1="30" y1="42" x2="40" y2="41" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <line x1="30" y1="45" x2="40" y2="45" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <line x1="30" y1="48" x2="40" y2="49" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <line x1="70" y1="42" x2="60" y2="41" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <line x1="70" y1="45" x2="60" y2="45" stroke="#000" stroke-width="1" opacity="0.7"/>
+  <line x1="70" y1="48" x2="60" y2="49" stroke="#000" stroke-width="1" opacity="0.7"/>
+
+  <!-- Paws -->
+  <ellipse cx="42" cy="74" rx="5" ry="6" fill="#E67E22"/>
+  <ellipse cx="58" cy="74" rx="5" ry="6" fill="#E67E22"/>
+
+  <!-- Tail -->
+  <path d="M70 55 Q80 50 85 60" stroke="#E67E22" stroke-width="8" fill="none" stroke-linecap="round"/>
 </svg>
