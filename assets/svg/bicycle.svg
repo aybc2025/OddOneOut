@@ -1,9 +1,36 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="25" cy="65" r="15" fill="none" stroke="#000" stroke-width="3"/>
-  <circle cx="75" cy="65" r="15" fill="none" stroke="#000" stroke-width="3"/>
-  <line x1="25" y1="65" x2="50" y2="35" stroke="#000" stroke-width="3"/>
-  <line x1="50" y1="35" x2="75" y2="65" stroke="#000" stroke-width="3"/>
-  <line x1="50" y1="35" x2="50" y2="25" stroke="#000" stroke-width="3"/>
-  <circle cx="50" cy="22" r="3" fill="#000"/>
-  <line x1="40" y1="45" x2="60" y2="45" stroke="#000" stroke-width="2.5"/>
+  <!-- Back wheel -->
+  <circle cx="25" cy="70" r="18" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="25" cy="70" r="14" fill="#FF6B6B"/>
+  <circle cx="25" cy="70" r="4" fill="#666666"/>
+  <!-- Front wheel -->
+  <circle cx="75" cy="70" r="18" fill="#333333" stroke="#000000" stroke-width="2"/>
+  <circle cx="75" cy="70" r="14" fill="#FF6B6B"/>
+  <circle cx="75" cy="70" r="4" fill="#666666"/>
+  <!-- Frame - back triangle -->
+  <line x1="25" y1="70" x2="45" y2="35" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <line x1="45" y1="35" x2="50" y2="55" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="55" x2="25" y2="70" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <!-- Frame - front triangle -->
+  <line x1="45" y1="35" x2="70" y2="35" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <line x1="70" y1="35" x2="75" y2="70" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <line x1="75" y1="70" x2="50" y2="55" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <!-- Seat post -->
+  <line x1="45" y1="35" x2="42" y2="25" stroke="#4169E1" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Seat -->
+  <ellipse cx="42" cy="23" rx="8" ry="3.5" fill="#000000"/>
+  <!-- Handlebars -->
+  <line x1="70" y1="35" x2="73" y2="28" stroke="#4169E1" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="68" y1="28" x2="78" y2="28" stroke="#000000" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Pedal crank -->
+  <line x1="48" y1="55" x2="54" y2="60" stroke="#666666" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="54" cy="60" r="2.5" fill="#FFD700"/>
+  <!-- Spokes back wheel -->
+  <line x1="25" y1="70" x2="35" y2="58" stroke="#CCCCCC" stroke-width="0.8"/>
+  <line x1="25" y1="70" x2="15" y2="82" stroke="#CCCCCC" stroke-width="0.8"/>
+  <line x1="25" y1="70" x2="40" y2="70" stroke="#CCCCCC" stroke-width="0.8"/>
+  <!-- Spokes front wheel -->
+  <line x1="75" y1="70" x2="85" y2="58" stroke="#CCCCCC" stroke-width="0.8"/>
+  <line x1="75" y1="70" x2="65" y2="82" stroke="#CCCCCC" stroke-width="0.8"/>
+  <line x1="75" y1="70" x2="90" y2="70" stroke="#CCCCCC" stroke-width="0.8"/>
 </svg>

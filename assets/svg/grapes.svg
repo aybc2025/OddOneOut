@@ -1,9 +1,27 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="70" r="8" fill="#8B008B" stroke="#000" stroke-width="2"/>
-  <circle cx="42" cy="62" r="8" fill="#8B008B" stroke="#000" stroke-width="2"/>
-  <circle cx="58" cy="62" r="8" fill="#8B008B" stroke="#000" stroke-width="2"/>
-  <circle cx="50" cy="54" r="8" fill="#8B008B" stroke="#000" stroke-width="2"/>
-  <circle cx="42" cy="46" r="8" fill="#8B008B" stroke="#000" stroke-width="2"/>
-  <circle cx="58" cy="46" r="8" fill="#8B008B" stroke="#000" stroke-width="2"/>
-  <path d="M50 38 Q48 28 45 25 Q48 22 50 25 Q52 22 55 25 Q52 28 50 38" fill="#34C759" stroke="#000" stroke-width="2"/>
+  <!-- Stem -->
+  <path d="M 50 15 Q 48 20 50 25" stroke="#8B4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Leaf -->
+  <path d="M 35 18 Q 30 15 28 20 Q 26 25 30 28 Q 35 30 38 26 Q 40 22 35 18 Z" fill="#228B22"/>
+  <path d="M 35 18 Q 32 20 30 28" stroke="#1a6b1a" stroke-width="0.8" fill="none"/>
+  <!-- Grapes (purple bunch) -->
+  <circle cx="50" cy="32" r="7" fill="#8B008B"/>
+  <circle cx="42" cy="38" r="7" fill="#9932CC"/>
+  <circle cx="58" cy="38" r="7" fill="#9932CC"/>
+  <circle cx="50" cy="44" r="7" fill="#8B008B"/>
+  <circle cx="38" cy="46" r="7" fill="#9370DB"/>
+  <circle cx="62" cy="46" r="7" fill="#9370DB"/>
+  <circle cx="46" cy="52" r="7" fill="#8B008B"/>
+  <circle cx="54" cy="52" r="7" fill="#8B008B"/>
+  <circle cx="42" cy="58" r="7" fill="#9932CC"/>
+  <circle cx="58" cy="58" r="7" fill="#9932CC"/>
+  <circle cx="50" cy="64" r="7" fill="#9370DB"/>
+  <circle cx="46" cy="70" r="7" fill="#8B008B"/>
+  <circle cx="54" cy="70" r="7" fill="#8B008B"/>
+  <circle cx="50" cy="76" r="7" fill="#9932CC"/>
+  <!-- Highlights on grapes -->
+  <circle cx="48" cy="30" r="2.5" fill="#DDA0DD" opacity="0.7"/>
+  <circle cx="56" cy="36" r="2.5" fill="#DDA0DD" opacity="0.7"/>
+  <circle cx="52" cy="50" r="2.5" fill="#DDA0DD" opacity="0.7"/>
+  <circle cx="48" cy="68" r="2.5" fill="#DDA0DD" opacity="0.7"/>
 </svg>
