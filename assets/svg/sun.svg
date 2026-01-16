@@ -1,11 +1,30 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="20" fill="#FFE135" stroke="#000" stroke-width="3"/>
-  <line x1="50" y1="15" x2="50" y2="25" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="50" y1="75" x2="50" y2="85" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="15" y1="50" x2="25" y2="50" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="75" y1="50" x2="85" y2="50" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="25" y1="25" x2="32" y2="32" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="68" y1="68" x2="75" y2="75" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="75" y1="25" x2="68" y2="32" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
-  <line x1="32" y1="68" x2="25" y2="75" stroke="#FFE135" stroke-width="4" stroke-linecap="round"/>
+  <!-- Sun gradient -->
+  <defs>
+    <radialGradient id="sunGradient">
+      <stop offset="0%" style="stop-color:#FFF176;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sun rays (triangular) -->
+  <path d="M 50 5 L 45 20 L 55 20 Z" fill="#FFC107"/>
+  <path d="M 80 15 L 70 25 L 78 30 Z" fill="#FFC107"/>
+  <path d="M 95 50 L 80 45 L 80 55 Z" fill="#FFC107"/>
+  <path d="M 80 85 L 78 70 L 70 75 Z" fill="#FFC107"/>
+  <path d="M 50 95 L 55 80 L 45 80 Z" fill="#FFC107"/>
+  <path d="M 20 85 L 30 75 L 22 70 Z" fill="#FFC107"/>
+  <path d="M 5 50 L 20 55 L 20 45 Z" fill="#FFC107"/>
+  <path d="M 20 15 L 22 30 L 30 25 Z" fill="#FFC107"/>
+
+  <!-- Sun body -->
+  <circle cx="50" cy="50" r="25" fill="url(#sunGradient)" stroke="#FF9800" stroke-width="2"/>
+
+  <!-- Highlight -->
+  <ellipse cx="42" cy="42" rx="10" ry="12" fill="#FFFDE7" opacity="0.7"/>
+
+  <!-- Face (cute sun) -->
+  <circle cx="43" cy="47" r="2.5" fill="#FF6F00"/>
+  <circle cx="57" cy="47" r="2.5" fill="#FF6F00"/>
+  <path d="M 42 57 Q 50 62 58 57" stroke="#FF6F00" stroke-width="2" fill="none" stroke-linecap="round"/>
 </svg>
