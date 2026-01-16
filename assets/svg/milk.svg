@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="35" y="45" width="30" height="40" rx="3" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <path d="M35 45 L40 30 L60 30 L65 45" fill="#FFF" stroke="#000" stroke-width="3"/>
+  <rect x="40" y="25" width="20" height="8" fill="#FF3B30" stroke="#000" stroke-width="2"/>
+  <text x="50" y="65" font-size="18" text-anchor="middle" fill="#007AFF" font-weight="bold">MILK</text>
+</svg>

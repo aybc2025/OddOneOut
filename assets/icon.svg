@@ -1,0 +1,15 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#4A90E2" rx="100"/>
+  
+  <!-- Question mark symbol -->
+  <circle cx="256" cy="350" r="35" fill="#FFF"/>
+  <path d="M256 120 Q200 120 170 150 Q140 180 140 230 L190 230 Q190 200 210 180 Q230 160 256 160 Q282 160 302 180 Q322 200 322 230 Q322 250 310 265 Q298 280 270 290 L270 290 Q240 305 225 325 Q210 345 210 380 L260 380 Q260 360 270 348 Q280 336 300 325 Q330 308 350 280 Q370 252 370 220 Q370 180 340 150 Q310 120 256 120" fill="#FFF"/>
+  
+  <!-- Decorative stars -->
+  <path d="M100 100 L110 130 L140 135 L115 155 L122 185 L100 170 L78 185 L85 155 L60 135 L90 130 Z" fill="#FFE135"/>
+  <path d="M412 100 L422 130 L452 135 L427 155 L434 185 L412 170 L390 185 L397 155 L372 135 L402 130 Z" fill="#FFE135"/>
+  
+  <!-- Smile -->
+  <path d="M180 450 Q256 480 332 450" fill="none" stroke="#FFF" stroke-width="15" stroke-linecap="round"/>
+</svg>
